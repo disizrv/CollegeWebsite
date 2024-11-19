@@ -1,0 +1,36 @@
+/* Basic styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* nth-child selector to target specific rows */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eaeaea;
+}
+
+/* Hover effect */
+tbody tr:hover {
+    background-color: #d3d3d3;
+}
+h2 {
+    color: #ff0000;
+}
